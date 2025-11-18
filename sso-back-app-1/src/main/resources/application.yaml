@@ -1,0 +1,3 @@
+spring:
+  application:
+    name: sso-back-app-1
