@@ -11,6 +11,8 @@
       <p class="text-gray-700 mb-4">{{ message }}</p>
       <GoogleLabel />
 
+        <h1>홈</h1>
+        <AuthButton />
       <div class="mt-4">
         <ApiTester @success="onSuccess" @error="onError" />
       </div>
@@ -28,6 +30,7 @@ import Header from '../components/Header.vue'
 import ApiTester from '../components/ApiTester.vue'
 import UserCard from '../components/UserCard.vue'
 import GoogleLabel from '../components/GoogleLabel.vue'
+import AuthButton from '../components/AuthButton.vue'
 
 const message = ref('Developer')
 const user = ref<any>(null)

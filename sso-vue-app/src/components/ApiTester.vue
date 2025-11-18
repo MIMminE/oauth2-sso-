@@ -22,7 +22,7 @@ const emit = defineEmits<{
   (e: 'error', err: any): void
 }>()
 
-const endpoint = props.endpoint ?? '/test/1'
+const endpoint = props.endpoint ?? '/test'
 const label = props.label ?? `API 호출: ${endpoint}`
 const loading = ref(false)
 const result = ref<any>(null)
