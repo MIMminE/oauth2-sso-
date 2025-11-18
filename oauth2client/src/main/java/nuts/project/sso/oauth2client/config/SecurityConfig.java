@@ -20,7 +20,6 @@ public class SecurityConfig {
     public SecurityFilterChain filterChain(HttpSecurity http) throws Exception {
 
         http
-                .cors().and()
                 .authorizeHttpRequests(authorize ->
                         authorize
 //                                .requestMatchers("/", "/oauth2/**", "/login/**").permitAll()
